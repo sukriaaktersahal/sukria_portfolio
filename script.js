@@ -1,3 +1,18 @@
-const toggle=document.querySelector('.menu-toggle');const links=document.querySelector('.nav-links');if(toggle&&links){toggle.addEventListener('click',()=>{const open=links.classList.toggle('open');toggle.setAttribute('aria-expanded',String(open));toggle.textContent=open?'×':'☰'});links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{links.classList.remove('open');toggle.setAttribute('aria-expanded','false');toggle.textContent='☰'}));}
-const year=document.getElementById('year');if(year)year.textContent=new Date().getFullYear();
-const resume=document.getElementById('resume-btn');if(resume){resume.addEventListener('click',e=>{e.preventDefault();const toast=document.getElementById('toast');toast.textContent='Your resume is not uploaded yet. Add your PDF as assets/resume.pdf and update this button.';toast.classList.add('show');setTimeout(()=>toast.classList.remove('show'),4200);});}
+const toggle=document.querySelector('.menu-toggle');
+
+const links=document.querySelector('.nav-links');
+
+if(toggle&&links){toggle.addEventListener('click',()=>{
+    const open=links.classList.toggle('open');
+    toggle.setAttribute('aria-expanded',String(open));
+    toggle.textContent=open?'×':'☰'});
+    links.querySelectorAll('a').forEach(a=>a.addEventListener('click',()=>{
+        links.classList.remove('open');
+        toggle.setAttribute('aria-expanded','false');
+        toggle.textContent='☰'}));
+    }
+
+const year=document.getElementById('year');
+if(year)year.textContent=new Date().getFullYear();
+
+

@@ -1,28 +1,34 @@
-# Sukria Akter — Portfolio starter
+# Sukria Akter — Personal Portfolio
 
-## Open locally
-1. Extract this ZIP.
-2. Open the `sukria_portfolio` folder in VS Code.
-3. Open `index.html` in a browser, or use the VS Code Live Server extension.
+A fully responsive, modern, and professional personal portfolio website built with HTML, CSS, and JavaScript. This portfolio showcases my skills, academic background, and projects as an IoT & Robotics Engineering student and aspiring Full Stack Developer.
 
-## Before publishing — personalize these items
-- Replace the GitHub and LinkedIn profile links in `index.html` with your exact profile URLs.
-- Add your email and preferred phone/WhatsApp number in the Contact section.
-- Add your school/college details in Education.
-- Review each project description and replace draft/challenge/future-plan text with what you actually implemented and learned.
-- Add project repository and live URLs in each file under `projects/`.
-- If your resume is ready, copy it to `assets/resume.pdf` and change the resume button in `index.html` to: `<a class="btn btn-outline" href="assets/resume.pdf" download>Download Resume ↓</a>`.
-- Check that the profile photo is the one you want to publish.
+## Live Demo
+- **Live Website:** [https://sukriaportfolio.vercel.app/](https://sukriaportfolio.vercel.app/)  
+- **GitHub Repository:** [https://github.com/sukriaaktersahal/sukria-portfolio](https://github.com/sukriaaktersahal/sukria-portfolio)
 
-## Publish free
-### GitHub Pages (static website)
-1. Create a GitHub repository, for example `sukria-portfolio`.
-2. Upload all files and folders from this project (keep the same folder structure).
-3. In GitHub, open Settings → Pages.
-4. Under Build and deployment, choose Deploy from a branch, select `main` and `/ (root)`, then Save.
-5. Wait for the published URL to appear in the Pages section.
+## Features
+- **Fully Responsive:** Optimized for desktop, laptop, tablet, and mobile devices.
+- **Light & Clean UI:** Professional light theme (White/Teal) with a polished layout.
+- **Sticky Navigation Bar:** Smooth scrolling to all sections with a mobile hamburger menu.
+- **Resume Download:** Easy one-click download for the Resume PDF.
+- **Project Showcase:** Detailed project cards with links to live sites and GitHub repositories.
+- **Contact Section:** Integrated with Email, Phone, GitHub, and LinkedIn.
 
-You can also deploy the folder through Netlify Drop. For this static HTML/CSS/JS version, no build command is needed.
+## Technologies Used
+- HTML5
+- CSS3 (Custom variables, Flexbox, Grid, Media Queries)
+- JavaScript (Vanilla JS for mobile menu and year update)
+- **Hosting:** Vercel
+- **Icons & Fonts:** Google Fonts (Manrope, DM Sans)
 
-## Notes
-This starter uses plain HTML, CSS and JavaScript so it is easy to edit and host. The project descriptions are drafts based on the project topics already discussed; verify and personalize them before submitting.
+## Project Structure
+- `index.html` — Main portfolio page.
+- `style.css` — All styling and responsive design.
+- `script.js` — Mobile menu toggle and dynamic year.
+- `assets/` — Contains profile photo, resume PDF, and project SVG images.
+- `projects/` — Detailed pages for each project (e.g., `bazar-dor.html`).
+
+## How to Run Locally
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/sukriaaktersahal/sukria-portfolio.git
